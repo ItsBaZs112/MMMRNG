@@ -1,5 +1,6 @@
 @font-face {font-family: Pusab; src: url('mm10.ttf')}
 
+/* <<<<<<< gummyleeches-newwaveui *\
 body {
     font-family: Pusab, Arial;
     background-size: 100%;
@@ -80,4 +81,30 @@ button:hover.controls {
     height: 128px;
     image-rendering: pixelated;
     right: 10%;
+/*=======*\
+h1,h2.h3,h4,h5,h6,button {
+    font-family: Pusab, Arial;
+    color: White;
+    background-color: 0079fb;
+    border:none;
+}
+
+body {
+    font-family: Pusab, Arial;
+    position: relative;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    background-size: 100%;
+    top: 10px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+}
+
+#mugshot {
+    width: 8em;
+    height: 8em;
+    image-rendering: pixelated;
+/* >>>>>>> main *\
 }
