@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet"href="res/style.css"></link>
+    </head>
+    <body background="res/logo.png" onload="randomizeBase()">
+        <table class="name">
+            <tr>
+                <td style="width: 90%">
+                    <p id="name" class="name"></p>
+                </td>
+                <td>
+                    <image id="mugshot">
+                </td>
+            </tr>
+        </table>
+            
+        <div class="controls">
+            <label class="controls" for="nums">VERBOSITY</label>
+            <input class="controls" type="number" id="nums" name="nums" value="5">
+            <button class="controls" onclick="randomizeBase()">RANDOMIZE</button>
+        </div>
+
+        <script>
+
+var weapons = ["F. Storm","Rolling C.","H.Bomb","I.Slasher","T.Beam","S.Arm","T.Slow","O.Slider","M.Blade","L.Shield"]
+var maxNumbers = 5
+var names = ["remastered","cut man","intro stage","level pack", "kaizo", "1-5", "protovania", "2023 revamped","roll","tutorial","wily stage","6","woman","man","mega man 12", "mega man 13", "mega man 10", "enker", "GB", "NES", "remake","challenge", "recreated", "recreation","demake","7","8","boss rush","crystal gate",Math.round(Math.random()),"kazoo","kiazo","fangame","yellow devil","nico evaluates","rockman and forte","the sequel","1_8_0","1_7_5","1_6_0","puzzle","neo cutman","contest","i wanna kill megaman","force beam","gimmick","contraption","illegal","factory","cutmna","hardman","concept", "mega man x","zero","mega man maker x","community maker","fortnite","joe biden","strike man","megaman","protoman","bass","roll","super hard","impossible","worlds hardest","easy","traditional","megaman 2","magnet","pluto","saturn","stardroid","battan","cossack","stage","airship","fire base","dark man","4","3","2","1","big pets","Ryu","sea",
+"v2","v3","v4","passage","entrance","skull","castle","gun","nrs","vui","feeber",randomWeapon(),"example level","prontoman","mega man","rockman","electro guard","speedrun","tech","glitch","what","a","leafshield","bielles","mmmx","modded",randomWeapon(),randomWeapon(),randomWeapon()]
+var name = []
+var mugs = ["bom","fir","ice","cut","met","qui","bub","wod","cra","gem","mag","har","top","spa","toa","rin","sku","pha","sto","cry","nap","cha","dark1","dark2","dark3","dark4","win","fla","yam","kni","pla","tor","con","spl","pum","str","she"]
+var curr = 0
+
+var levelName = ""
+
+function randomItem() {
+    return names[Math.floor(Math.random()*names.length)];   
+}
+
+function randomWeapon() {
+    return weapons[Math.floor(Math.random()*weapons.length)];
+}
+function randomMugshot() {
+    return mugs[Math.floor(Math.random()*mugs.length)];  
+}
+
+const randomCycle = [
+    randomWeapon, randomItem
+]
+
+function randomizeBase() {
+    weaponUsed = false;
+
+    max = document.getElementById("nums").value;
+    levelName = "";
+    document.getElementById("mugshot").src = "res/"+randomMugshot()+".png"
+
+    for (var i = 0; i < max; i++){
+        if (weaponUsed == false) {
+            levelName += randomCycle[Math.floor(Math.random() * randomCycle.length)]()+" ";
+            weaponUsed = true;
+        } else {
+            levelName += randomItem()+" ";
+        }
+    }
+
+    levelName = levelName.toUpperCase();
+
+    document.getElementById("name").innerHTML = levelName;
+}
+
+        </script>
+    </body>
+</html>

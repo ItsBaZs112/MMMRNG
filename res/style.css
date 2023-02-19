@@ -1,23 +1,83 @@
 @font-face {font-family: Pusab; src: url('mm10.ttf')}
-h1,h2.h3,h4,h5,h6,button {
-font-family: Pusab, Arial;
-color: White;
-background-color: 0079fb;
-border:none;
-}
-body {
-font-family: Pusab, Arial;
-position: relative;
-text-align: center;
-margin-left:auto;
-margin-right:auto;
-background-size: 100%;
-top: 10px;
-overflow: hidden;
-background-repeat: no-repeat;
 
+body {
+    font-family: Pusab, Arial;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
 }
+
+table.name {
+    padding: 12px;
+    margin: 12px;
+    width: 95%;
+    height: 256px;
+    background-color: #0079fb;
+    box-shadow: 4px 4px black;
+}
+
+p.name {
+    display: inline;
+    color: White;
+    background-color: #0079fb;
+    border:none;
+    text-shadow: 4px 4px black;
+    font-size: 32px;
+}
+
+div.controls {
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+    width: 95%;
+    background-color: #0079fb;
+    box-shadow: 4px 4px black;
+}
+
+
+label.controls {
+    font-family: Pusab, Arial;
+    font-size: 16px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+input.controls {
+    padding: 8px;
+    margin: 8px;
+    font-family: Pusab, Arial;
+    font-size: 16px;
+    color: white;
+    text-shadow: 2px 2px black;
+    border: 2px solid white;
+    background-color: #0079fb;
+}
+
+button.controls {
+    padding: 8px;
+    margin: 8px;
+    font-family: Pusab, Arial;
+    font-size: 16px;
+    color: white;
+    text-shadow: 2px 2px black;
+    border: 2px solid white;
+    background-color: #0079fb;
+}
+
+button:hover.controls {
+    padding: 8px;
+    margin: 8px;
+    font-family: Pusab, Arial;
+    font-size: 16px;
+    color: #0079fb;
+    text-shadow: none;
+    border: 2px solid white;
+    background-color: white;
+}
+
 #mugshot {
-width: 8em;
-height: 8em;
+    width: 128px;
+    height: 128px;
+    image-rendering: pixelated;
+    right: 10%;
 }
