@@ -1,10 +1,26 @@
 @font-face {font-family: Pusab; src: url('mm10.ttf')}
 
+body {
+    font-family: Pusab, Arial;
+    background-size: 100%;
+	
+    height: 128px;
+    image-rendering: pixelated;
+    right: 10%;
+}
 h1,h2.h3,h4,h5,h6,button {
     font-family: Pusab, Arial;
     color: White;
-    background-color: 0079fb;
+    background-color: #0079fb;
     border:none;
+}
+.name {
+    right:10px;
+    font-family: Pusab, Arial;
+    color: White;
+    background-color: #0079fb;
+    border-radius:6px;
+    text-align: end;
 }
 
 body {
@@ -24,4 +40,5 @@ body {
     width: 8em;
     height: 8em;
     image-rendering: pixelated;
+
 }
