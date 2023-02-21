@@ -15,7 +15,7 @@ h1,h2.h3,h4,h5,h6,button {
     border:none;
 }
 .name {
-    right:10px;
+    right:40px;
     font-family: Pusab, Arial;
     color: White;
     background-color: #0079fb;
@@ -37,6 +37,7 @@ body {
 }
 
 #mugshot {
+    right:40px;
     width: 8em;
     height: 8em;
     image-rendering: pixelated;
