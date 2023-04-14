@@ -32,7 +32,8 @@ function randomizeBase() {
         hyphen = Math.round(Math.random())
         hasChoseHyphen = true
     }
-    
+    var wpnall = document.getElementsByClassName('weapon')
+    wpnall.src = "res/dark3.png"
     max = document.getElementById("nums").value;
     levelName = "";
     document.getElementById("mugshot").src = "res/"+randomMugshot()+".png"
