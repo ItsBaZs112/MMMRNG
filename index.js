@@ -25,15 +25,15 @@ function randomMugshot() {
 const randomCycle = [
     randomWeapon, randomItem
 ]
-
+var wpnall = document.getElementsByClassName('weapon')
 function randomizeBase() {
     weaponUsed = false;
     if (hasChoseHyphen == false) {
         hyphen = Math.round(Math.random())
         hasChoseHyphen = true
     }
-    var wpnall = document.getElementsByClassName('weapon')
-    wpnall.src = "res/gem.png"
+    
+    wpnall.src = "res/ast.png"
     max = document.getElementById("nums").value;
     levelName = "";
     document.getElementById("mugshot").src = "res/"+randomMugshot()+".png"
