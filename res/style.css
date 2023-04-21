@@ -1,5 +1,7 @@
 @font-face {font-family: Pusab; src: url('mm10.ttf')}
-
+.weapon {
+top: 50%;
+}
 body {
     font-family: Pusab, Arial;
     background-size: 100%;
