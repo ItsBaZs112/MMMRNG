@@ -1,6 +1,7 @@
 @font-face {font-family: Pusab; src: url('mm10.ttf')}
-.weapon {
-top: 580%;
+.wpn {
+	position:relative;
+	top: 580%;
 }
 body {
     font-family: Pusab, Arial;
