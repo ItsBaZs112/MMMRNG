@@ -27,14 +27,14 @@ const randomCycle = [
 ]
 
 function randomizeBase() {
-    var wpnall = document.getElementsByClassName('weapon')
+    var w1 = document.getElementById('w1')
     weaponUsed = false;
     if (hasChoseHyphen == false) {
         hyphen = Math.round(Math.random())
         hasChoseHyphen = true
     }
     
-    wpnall.src = "res/ast.png"
+    w1.src = "res/ast.png"
     max = document.getElementById("nums").value;
     levelName = "";
     document.getElementById("mugshot").src = "res/"+randomMugshot()+".png"
