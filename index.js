@@ -27,7 +27,7 @@ const randomCycle = [
 ]
 
 function randomizeBase() {
-    var w1 = document.getElementById('w1')
+    var w1 = document.getElementById("w1")
     weaponUsed = false;
     if (hasChoseHyphen == false) {
         hyphen = Math.round(Math.random())
