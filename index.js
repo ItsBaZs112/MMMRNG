@@ -25,8 +25,9 @@ function randomMugshot() {
 const randomCycle = [
     randomWeapon, randomItem
 ]
-var wpnall = document.getElementsByClassName('weapon')
+
 function randomizeBase() {
+    var wpnall = document.getElementsByClassName('weapon')
     weaponUsed = false;
     if (hasChoseHyphen == false) {
         hyphen = Math.round(Math.random())
