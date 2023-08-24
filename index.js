@@ -35,6 +35,17 @@ function randomizeBase() {
     }
     
     w1.src = "res/ast.png"
+    w2.src = "res/ast.png"
+    w3.src = "res/ast.png"
+    w4.src = "res/ast.png"
+    w5.src = "res/ast.png"
+    w6.src = "res/ast.png"
+    w7.src = "res/ast.png"
+    w8.src = "res/ast.png"
+    w9.src = "res/ast.png"
+    w10.src = "res/ast.png"
+    w11.src = "res/ast.png"
+    w12.src = "res/ast.png"
     max = document.getElementById("nums").value;
     levelName = "";
     document.getElementById("mugshot").src = "res/"+randomMugshot()+".png"
