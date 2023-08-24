@@ -3,6 +3,18 @@
 	position: absolute;
 	top: 580px;
 }
+.weapon2 {
+	position: absolute;
+	top: 596px;
+}
+.weapon3 {
+	position: absolute;
+	top: 612px;
+}
+.weapon4 {
+	position: absolute;
+	top: 628px;
+}
 body {
     font-family: Pusab, Arial;
     background-size: 100%;
