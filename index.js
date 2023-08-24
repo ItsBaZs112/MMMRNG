@@ -23,7 +23,7 @@ function randomMugshot() {
     return mugs[Math.floor(Math.random()*mugs.length)];  
 }
 function rngWPN() {
-    return string(weaponsIcons[Math.floor(Math.random()*weaponsIcons.length)]);  
+    return (weaponsIcons[Math.floor(Math.random()*weaponsIcons.length)]);  
 }
 
 const randomCycle = [
