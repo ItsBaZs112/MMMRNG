@@ -60,18 +60,18 @@ function randomizeBase() {
         hasChoseHyphen = true
     }
     
-    w1.src = "res/weapons"+string(rngWPN())+".png"
-    w2.src = "res/weapons"+string(rngWPN())+".png"
-    w3.src = "res/weapons"+string(rngWPN())+".png"
-    w4.src = "res/weapons"+string(rngWPN())+".png"
-    w5.src = "res/weapons"+string(rngWPN())+".png"
-    w6.src = "res/weapons"+string(rngWPN())+".png"
-    w7.src = "res/weapons"+string(rngWPN())+".png"
-    w8.src = "res/weapons"+string(rngWPN())+".png"
-    w9.src = "res/weapons"+string(rngWPN())+".png"
-    w10.src = "res/weapons"+string(rngWPN())+".png"
-    w11.src = "res/weapons"+string(rngWPN())+".png"
-    w12.src = "res/weapons"+string(rngWPN())+".png"
+    w1.src = "res/weapons/"+string(rngWPN())+".png"
+    w2.src = "res/weapons/"+string(rngWPN())+".png"
+    w3.src = "res/weapons/"+string(rngWPN())+".png"
+    w4.src = "res/weapons/"+string(rngWPN())+".png"
+    w5.src = "res/weapons/"+string(rngWPN())+".png"
+    w6.src = "res/weapons/"+string(rngWPN())+".png"
+    w7.src = "res/weapons/"+string(rngWPN())+".png"
+    w8.src = "res/weapons/"+string(rngWPN())+".png"
+    w9.src = "res/weapons/"+string(rngWPN())+".png"
+    w10.src = "res/weapons/"+string(rngWPN())+".png"
+    w11.src = "res/weapons/"+string(rngWPN())+".png"
+    w12.src = "res/weapons/"+string(rngWPN())+".png"
     max = document.getElementById("nums").value;
     levelName = "";
     document.getElementById("mugshot").src = "res/"+randomMugshot()+".png"
