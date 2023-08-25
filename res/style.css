@@ -8,8 +8,7 @@ body {
     image-rendering: pixelated;
     right: 10%;
 }
-.weapon1,.weapon2,.weapon3,.weapon4,.weapon5,.weapon6,.weapon7,.weapon8,.weapon9,.weapon19,.weapon11,.weapon12 {
-
+.weapon,.weapon2,.weapon3,.weapon4,.weapon5,.weapon6,.weapon7,.weapon8,.weapon9,.weapon19,.weapon11,.weapon12 {
 	width: 200%;
 	height: 200%;
 	image-rendering: pixelated;
