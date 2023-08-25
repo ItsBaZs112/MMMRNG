@@ -25,7 +25,7 @@ function round(num) {
 return Math.round(num)
 }
 function irandom(maximum) {
-    return round(Math.random()) * maximum
+    return Math.floor(Math.random()) * maximum+1
     
 }
 var weaponIcons = [irandom(30),9999]
