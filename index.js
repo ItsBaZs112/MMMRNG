@@ -26,9 +26,20 @@ function round(num) {
 return Math.round(num)
 }
 function rngWeapon() {
-    var random = Math.random()*5
-    if (round(random) == 5)
+    var random = Math.random()*3
+    if (round(random) == 3)
     return weaponIcons[Math.floor(Math.random()*weaponIcons.length)].toString();  
+    else return "9999"
+}
+function rngWeaponUtility() {
+    var multi = round(Math.random())*2
+    var random = Math.random()*4
+    if (round(random) == 3)
+    return weaponIcons[Math.floor(Math.random()*weaponIcons.length)].toString();  
+    else if (round(random) == 4) {
+        return weaponIcons[5+multi].toString();  
+        
+    }
     else return "9999"
 }
 
