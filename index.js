@@ -27,7 +27,7 @@ return Math.round(num)
 }
 function rngWeapon() {
     var random = Math.random()*3
-    if (round(random) == 3)
+    if (round(random) != 3)
     return weaponIcons[Math.floor(Math.random()*weaponIcons.length)].toString();  
     else return "9999"
 }
