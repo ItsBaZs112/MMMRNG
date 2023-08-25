@@ -22,8 +22,14 @@ function randomWeapon() {
 function randomMugshot() {
     return mugs[Math.floor(Math.random()*mugs.length)];  
 }
+function round(num) {
+return Math.round(num)
+}
 function rngWeapon() {
+    var random = Math.random()*5
+    if round(random) == 5
     return weaponIcons[Math.floor(Math.random()*weaponIcons.length)].toString();  
+    else return("9999")
 }
 
 const randomCycle = [
