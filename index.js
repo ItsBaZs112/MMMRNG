@@ -86,9 +86,9 @@ function randomizeBase() {
     w7.src = "res/weapons/"+rngWeapon()+".png"
     w8.src = "res/weapons/"+rngWeapon()+".png"
     w9.src = "res/weapons/"+rngWeapon()+".png"
-    w10.src = "res/weapons/"+rngWeapon()+".png"
-    w11.src = "res/weapons/"+rngWeapon()+".png"
-    w12.src = "res/weapons/"+rngWeapon()+".png"
+    w10.src = "res/weapons/"+rngWeaponUtility()+".png"
+    w11.src = "res/weapons/"+rngWeaponUtility()+".png"
+    w12.src = "res/weapons/"+rngWeaponUtility()+".png"
     max = document.getElementById("nums").value;
     levelName = "";
     document.getElementById("mugshot").src = "res/"+randomMugshot()+".png"
