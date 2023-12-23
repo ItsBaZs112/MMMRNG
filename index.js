@@ -36,7 +36,7 @@ function rngWeapon() {
     else return "9999"
 }
 function rngWeaponUtility() {
-    var multi = round(Math.random())*2
+    var multi = round(Math.random()*2)
     var random = Math.random()*4
     if (round(random) == 3)
     return weaponIcons[Math.floor(Math.random()*weaponIcons.length)].toString();  
@@ -70,7 +70,7 @@ function randomizeBase() {
 
         var w9 = document.getElementById("w9")
 
-        var w19 = document.getElementById("w10")
+        var w10 = document.getElementById("w10")
 
         var w11 = document.getElementById("w11")
 
